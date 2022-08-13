@@ -49,7 +49,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li style="display: none;"><a class="nav-link scrollto" href="#about">About</a></li>
+          <li style="display: block;"><a class="nav-link scrollto" href="#about">About</a></li>
           <li style="display: none;"><a class="nav-link scrollto" href="#services">Services</a></li>
           <li style="display: none;"><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
           <li style="display: none;"><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -100,7 +100,7 @@
 
   </section><!-- End Hero -->
 
-  <main id="main" style="display: none;">
+  <main id="main" style="display: block;">
 
     <!-- ======= Cliens Section ======= -->
     <section id="cliens" class="cliens section-bg">
@@ -138,7 +138,7 @@
     </section><!-- End Cliens Section -->
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about" style="display: none;">
+    <section id="about" class="about" style="display: block;">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -148,22 +148,19 @@
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Nowadays, the internet and the World Wide Web (WWW) are very popular all over the world. Many people need Internet-based applications, such as e-mail and Web access via the internet. So that more and more business applications are developing that run on the internet (Sukaridoto, 2021).
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Company profile</li>
+              <li><i class="ri-check-double-line"></i> Data management</li>
+              <li><i class="ri-check-double-line"></i> Business communication</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              The role of information technology in changing business does not only occur in large companies. Micro, small and medium scale businesses also benefit from the development of information technology. At the beginning of the 2000-2010 decade, many medium-sized furniture entrepreneurs in Central Java and the Special Region of Yogyakarta were able to export and conduct business communications with overseas buyers only armed with email (Sarosa & Zowghi, 2003).
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            <a href="#footer" class="btn-learn-more">Learn More</a>
           </div>
         </div>
 
@@ -171,7 +168,7 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg" style="display: none;">
+    <section id="why-us" class="why-us section-bg" style="display: block;">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
@@ -668,7 +665,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>For more information, please contact us or visit our office. We will serve you wholeheartedly.</p>
         </div>
 
         <div class="row">
@@ -678,13 +675,13 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Perumahan Permata Indah Blok F9 Sukabumi, Jawa Barat 43157</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>muhamaddarishizbullah@gmail</p>
               </div>
 
               <div class="phone">
@@ -693,13 +690,13 @@
                 <p>+62 878 2588 1525</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44806.084960338674!2d106.8485859485368!3d-6.9696515249307724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68394a6c903b65%3A0xa5fc2df5fb6121cf!2sHaizPro%20Sukabumi!5e0!3m2!1sid!2sid!4v1660407829192!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="display: block;">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="display: block;">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -759,7 +756,7 @@
             <h3>HaizPro</h3>
             <p>
               Perumahan Permata Indah Blok F9 <br>
-              Sukabumi, Jawa Barat 535022<br>
+              Sukabumi, Jawa Barat  43157<br>
               Indonesia <br><br>
               <strong>Phone:</strong> +62 878 2588 1525<br>
               <strong>Email:</strong> muhamaddarishizbullah@gmail.com<br>

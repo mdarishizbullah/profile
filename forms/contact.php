@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  /*$receiving_email_address = 'mdarish@earthcommerceindonesia.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -24,18 +24,27 @@
   $contact->subject = $_POST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
+    'host' => 'earthcommerceindonesia.com',
+    'username' => 'mdarish@earthcommerceindonesia.com',
+    'password' => 'kenyanjink123123',
     'port' => '587'
   );
-  */
+  
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
+  echo $contact->send();*/
+    ini_set( 'display_errors', 1 );   
+    error_reporting( E_ALL );    
+    $from = "mdarish@earthcommerceindonesia.com";    
+    $to = "muhamaddarishizbullah@gmail.com";    
+    $subject = "Checking PHP mail";    
+    $message = "PHP mail berjalan dengan baik";   
+    $headers = "From:" . $from;    
+    mail($to,$subject,$message, $headers);    
+    echo "Pesan email sudah terkirim.";
 ?>
