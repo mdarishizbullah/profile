@@ -168,7 +168,7 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg" style="display: block;">
+    <section id="why-us" class="why-us section-bg" style="display: none;">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="row">
@@ -537,7 +537,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing" style="display: block;">
+    <section id="pricing" class="pricing" style="display: hide;">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -598,7 +598,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg" style="display: block;">
+    <section id="faq" class="faq section-bg" style="display: none;">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -695,8 +695,8 @@
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="display: block;">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="display: block;">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="display: hide;">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="display: hide;">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
